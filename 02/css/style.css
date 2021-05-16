@@ -1,0 +1,107 @@
+/*nor*/
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*lib*/
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*cus*/
+.main-page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/*header*/
+
+header {
+    float: left;
+    height: 650px;
+    width: 200px;
+}
+
+header > .logo {
+    width: 200px;
+    height: 100px;
+    background-color: #999;
+}
+
+header > .menu {
+    width: 200px;
+    height: 550px;
+    background-color: #888;
+    float: left;
+}
+
+/*right-side*/
+.right-side {
+    float: left;
+    width: 800px;
+    height: 650px;
+}
+
+/*slide*/
+.slide {
+    height: 350px;
+    background-color: #777;
+}
+
+/*contents*/
+.contents > div {
+    float: left;
+    height: 200px;
+    width: calc(100%/3);
+}
+
+.contents > .notice {
+    background-color: #666;
+}
+
+.contents > .banner {
+    background-color: #555;
+}
+
+.contents > .shortcut {
+    background-color: #444;
+}
+
+/*footer*/
+
+footer > div {
+    float: left;
+}
+
+footer > .foot-logo {
+    height: 100px;
+    width: 200px;
+    background-color: #333;
+}
+
+footer > .foot-menu{
+    height: 50px;
+    width: 600px;
+    background-color: #999;
+}
+
+footer > .copyright{
+    height: 50px;
+    width: 600px;
+    background-color: #888;
+}
