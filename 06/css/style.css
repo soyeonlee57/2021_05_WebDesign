@@ -1,0 +1,85 @@
+/*nor*/
+body,ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+/*lib*/
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*main-page*/
+.main-page{
+    margin-left:0;
+    width: 1000px;
+    height: 650px;
+    text-align: center;
+}
+
+/*aside*/
+aside{
+    float: left;
+    width: 200px;
+    height: 650px;
+    background-color: grey;
+}
+
+/*logo*/
+aside > .logo{
+    width: 200px;
+    height: 100px;
+    background-color: #999;
+}
+
+/*menu*/
+aside > .menu{
+    float: left;
+    width: 200px;
+    height: 450px;
+    background-color: #888;
+}
+
+aside > .menu li {
+    position: relative;
+    text-align: center;
+    background-color: #555;
+}
+
+aside > .menu li > a{
+    padding: 10px;
+    display: block;
+    color: white;
+}
+
+aside > .menu li:hover > a{
+    background-color: black;
+    color: white;
+}
+
+aside > .menu li ul.submenu {
+    display: none;
+    position: absolute;
+    width: 250px;
+    right: -250px;
+    top:-50px;
+}
+
+
+aside > .menu li ul.submenu a:hover {
+    background-color: white;
+    color:black;
+}
+
+/*right-side*/
+.rightside{
+    background-color: #777;
+}
