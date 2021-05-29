@@ -7,7 +7,7 @@ $(document).ready(function(){
     $(".menu > ul > li > ul").stop().slideUp(200);
  }); 
     
- $(".pop-up").click(function(){
+ $(".notice").click(function(){
     $(".layer").show();
     $(".layer-bg").show();
 });    
@@ -15,7 +15,10 @@ $(document).ready(function(){
     $(".layer").hide();
     $(".layer-bg").hide();
 });    
-    
+     $(".layer-bg").click(function(){
+    $(".layer").hide();
+    $(".layer-bg").hide();
+});  
 $(".tab1").click(function(){
     $(".notice").show();
     $(".gallery").hide();
