@@ -57,6 +57,12 @@ aside > .menu li > a{
     color: white;
 }
 
+aside > .menu li:hover > a{
+    background-color: #fff;
+    color: black;
+}
+
+
 aside > .menu li ul.submenu{
     display: none;
 }
