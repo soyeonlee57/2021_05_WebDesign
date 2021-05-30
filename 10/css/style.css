@@ -98,10 +98,14 @@ header > .menu ul li ul.submenu li {
 }
 
 .contents .tab1{
+    border: 1px solid black;
+    font-size: 1.2rem;
     background-color: #fff;
 }
 
 .contents .tab2{
+    border: 1px solid black;
+    font-size: 1.2rem;
     background-color: #888;
 }
 
@@ -125,7 +129,7 @@ header > .menu ul li ul.submenu li {
 }
 
 /*pop-up*/
-.contents > .pop-up{
+.contents > .banner{
     background-color: #666;
 }
 
