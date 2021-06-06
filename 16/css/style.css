@@ -1,0 +1,218 @@
+/*nor*/
+body,ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    color: #222328;
+    text-decoration: none;
+}
+
+/*lib*/
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.active{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*cus*/
+/*main-page*/
+.main-page{
+    margin-left: 0;
+    height: 650px;
+    width: 1000px;
+}
+
+/*header*/
+aside{
+    float: left;
+    height: 650px;
+    width: 200px;
+}
+
+/*logo*/
+aside > .logo{
+    width: 200px;
+    height: 100px;
+}
+
+/*menu*/
+aside > .menu{
+   float: left;
+    width: 200px;
+    height: 550px;
+    position: relative;
+}
+
+aside > .menu > ul{
+     margin-left: 30px;
+}
+
+aside > .menu ul li{
+    text-align: center;
+    width: 25%px;
+    position: relative;
+}
+
+aside > .menu ul li > a{
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    display: block;
+}
+
+aside > .menu ul li:hover > a{
+    background-color: #000;
+    color: white;
+}
+
+aside > .menu ul li ul.submenu{
+    display: none;
+    position: absolute;
+    width: 250px;
+    right: -250px;
+    top: -50px;
+    z-index: 50;
+}
+
+aside > .menu ul li ul.submenu > li {
+    width: 100%;
+}
+
+/*rightside*/
+
+
+/*slide*/
+.slide{
+    float: left;
+    width: 800px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.slide .slider {
+    position: relative;
+} 
+
+.slide .slider a{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.slide .slider a:first-child{
+    left:0;
+}
+
+.slide .slider a:nth-child(2){
+    left:800px;
+}
+
+.slide .slider a:nth-child(3){
+    left:1600px; 
+}
+
+/*contents*/
+.contents > div{
+    float: left;
+}
+
+
+/*tab*/
+.tab{
+    width: 300px;
+    height: 200px;
+    font-size: 15px;
+}
+
+.tab1{
+    float: left;
+}
+
+
+.contents .notice{
+    width: 100%;
+    height: 100%;
+}
+
+.contents .gallery{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.contents p{
+    float: left;
+    box-sizing: border-box;
+    width: calc(100%/3);
+    height: 160px;
+}
+
+.contents a img:hover{
+    opacity: 0.5;
+}
+
+
+/*footer*/
+footer> div{
+    float: left;
+}
+
+/*foot-logo*/
+footer > .foot-logo{
+    width: 100px;
+    height: 100px;
+}
+
+/*foot-menu*/
+footer > .foot-menu {
+    width: 700px;
+    height: 50px;
+}
+
+/*copyright*/
+footer > .copyright {
+    width: 700px;
+    height: 50px;
+}
+
+/*popup*/
+.layer {
+    display: none;
+    background-color: #fff;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top:50px;
+    margin-top: 250px;
+     left:50px;
+    margin-left: 250px;
+}
+
+.layer h2, .layer button{
+    padding: 20px;
+}
+
+.layer button{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
