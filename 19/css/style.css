@@ -1,0 +1,214 @@
+/*nor*/
+body,ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    color: #333333;
+    text-decoration: none;
+}
+
+/*lib*/
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*cus*/
+.main-page{
+    width: 1000px;
+    height: 650px;
+}
+/*aside*/
+aside{
+    float: left;
+    width: 200px;
+    height: 650px;
+}
+
+/*logo*/
+aside > .logo{
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+
+/*menu*/
+.menu{
+    float: left;
+    width: 200px;
+}
+
+.menu li{
+    text-align: center;
+}
+
+.menu li a{
+    padding: 10px;
+    display: block;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+}
+
+.menu li:hover a{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.menu li ul.submenu{
+    display: none;
+}
+
+.menu li ul.submenu > li {
+    width: 200px;
+}
+/*right-side*/
+.right-side{
+    float: left;
+    width: 800px;
+    height: 650px;
+}
+
+/*slide*/
+.slide{
+    float: left;
+    width: 800px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.slide .slider{
+    float: left;
+    position: relative;
+}
+
+.slide .slider p{
+    position: absolute;
+}
+
+/*contents*/
+.contents > div{
+    float: left;
+}
+
+/*tab*/
+.tab1 > a{
+    font-weight: bold;
+    background-color: #e9b3b3;
+}
+
+/*notice*/
+.contents > .notice {
+    width: 300px;
+    height: 200px;
+}
+
+.contents > .notice > ul{
+    font-size: 0.8rem;
+}
+
+.contents > .notice li:hover > a{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contents > .notice  li:nth-child(2) {
+    background-color: #80d49c;
+}
+
+.contents > .notice  li:nth-child(4) {
+    background-color: #80d49c;
+}
+
+/*gallery*/
+.contents > .gallery{
+    width: 300px;
+    height: 200px;
+}
+
+.contents > .gallery p {
+    width: calc(100%/3);
+    box-sizing: border-box;
+    float: left;
+}
+
+.contents > .gallery > p:hover img{
+    opacity: 0.5;
+}
+
+/*shortcut*/
+.contents > .shorcut{
+    
+}
+.contents > .shortcut > p:hover img{
+    opacity: 0.5;
+}
+
+/*footer*/
+footer > div{
+    float: left;
+
+}
+
+/*copyright*/
+footer > .copyright {
+    width: 500px;
+    height: 100px;
+}
+
+/*sns*/
+footer > .sns{
+    width: 300px;
+
+}
+
+footer > .sns a {
+    width: calc(100%/3);
+    float: left;
+    height: 55px;
+    box-sizing: border-box;
+}
+
+/*family*/
+footer > .family{
+    font-size: 0.9rem;
+    width: 300px;
+    height: 29px;
+}
+
+/*layer*/
+.layer-bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    display: none;
+}
+
+.layer{
+    text-align: center;
+    display: none;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #e9b3b3;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    margin-left: 250px;
+    margin-top: 250px;
+    background-color: #fff;
+}
+
+.layer h2, .layer button{
+    padding: 10px;
+}
+
+.layer button{
+    position: absolute;
+    bottom:20px;
+    right: 20px;
+}
+
+
